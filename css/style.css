@@ -429,6 +429,44 @@ footer h6{
 /* End Footer Section */
 
 
+/* Start Responsive For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    header .fa-bars{color: #000;}
+    header .logo-img{width: 30%;}
+    .navbar-light .navbar-toggler {border-color: rgba(0,0,0,0);}
+    .navbar-toggler:focus {outline: 0;box-shadow: none;}
+    header span {color: #000;}
+    .navbar-light .navbar-nav .nav-link {padding: 10px 0;text-align: center;}
+    header h1 {padding-top: 40px;}
+    .content-two {padding: 50px 0;}
+    .content-two h2 {text-align: center;}
+    .content-two p {padding: 30px;text-align: center;}
+    .content-two .content-btn {display: block;margin: 0 auto 80px;}
+    .content-two img{display: block;margin: 0 auto;}
+    .content-two h3 {padding-bottom: 40px;}
+    .video p {padding: 30px 5px;}
+    .video::before {width: 80%;height: 43%;top: 62%;left: 10%;}
+    .video .icon-div img {top: 165px;}
+    .content-five {padding: 50px 0;}
+    .content-five p {padding: 25px 0 50px;}
+    .content-five img{display: block;margin: 0 auto 30px;}
+    .content-six {padding: 50px 0;}
+    .content-six .side-border{border-top: 1px solid #fff;border-bottom: 1px solid #fff;border-left: none;border-right: none;}
+    .content-six ul li p {padding: 0 20px 30px;}
+    .content-six ul li img{padding-top: 10px;}
+    .content-seven p {padding: 0 0 10px;}
+    .content-seven {padding: 50px 0;}
+    .card {display: block;margin: 0 auto;padding: 30px 0;}
+    .card .check{display: inline;}
+    .content-seven .seven-btn {width: 34%;padding: 10px 0;}
+    footer {margin: 50px 0 10px;}
+    footer h5 {text-align: center;}
+    footer ul li {text-align: center;}
+    footer ul p {text-align: center;padding-bottom: 20px;}
+}
+/* End Responsive For Tablet Device */
+
+
 /* Start Responsive For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
     header .fa-bars{color: #000;}
